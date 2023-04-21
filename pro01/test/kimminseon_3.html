@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+	const a =document.querySelector("#a")
+	const b =document.querySelector("#b")
+	const p =document.querySelector('p')
+
+	a.addEventListener("change",(event)=>{
+		const options = event.currentTarget.options
+		const index = event.currentTarget.options.selectedIndex
+		p.textContent =`선택: ${options[index].textContent}`
+	})
+	b.addEventListener("change",(event)=>{
+		const options = event.currentTarget.options
+		const index = event.currentTarget.options.selectedIndex	
+	})
+
+})
+</script>
+</head>
+<body>
+	<hr>
+	<div>색상
+	<select id="a">
+	<option>옵션 선택</option>
+	<option>브라운</option>
+	<option>블랙</option>
+	</select>
+	</div>
+	<br>
+	<div>사이즈
+	<select id="b">
+	<option>옵션 선택</option>
+	<option>230</option>
+	<option>235</option>
+	<option>240</option>
+	</select>
+	</div>
+	<hr>
+	<p></p>
+</body>
+</html>

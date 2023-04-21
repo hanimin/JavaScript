@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	document.addEventListener("DOMContentLoaded",()=>{
+		const select =document.querySelector("select")
+		const p =document.querySelector('p')
+	
+		select.addEventListener("change",(event)=>{
+			const options = event.currentTarget.options
+			const index = event.currentTarget.options.selectedIndex
+			p.textContent =`선택: ${options[index].textContent}`
+		})
+	})
+</script>
+</head>
+<body>
+	<h2>가위바위보 게임</h2>
+	<select>
+	<option>내맘이야~꽝</option>
+	<option>가위</option>
+	<option>바위</option>
+	<option>보</option>
+	</select>
+	<p></p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	const listener = (event) =>{
+		const length = textarea.value.length
+		h1.textContent = `글자 수: ${length}`
+		//현재 블록에서는 textarea변수를 사용할수 없음
+	}
+		document.addEventListener('DOMContentLoaded', () => {
+		const textarea = document.querySelector('textarea')
+		const h1 = document.querySelector('h1')
+		textarea.addEventListener('keyup', listener)
+		})
+		//이벤트 리스너가 외부로 분리
+</script>
+</head>
+<body>
+	<h1></h1>
+	<textarea></textarea>
+</body>
+</html>

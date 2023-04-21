@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+ // 단순하게매개변수를모두출력하는함수
+ function sample(...items) {
+ console.log(items)
+ }
+
+ // 전개연산자사용여부비교하기
+ const array = [1, 2, 3, 4]
+ console.log(sample.apply(null, array))
+</script>
+</head>
+<body>
+
+</body>
+</html>

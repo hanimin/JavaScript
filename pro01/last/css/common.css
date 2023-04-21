@@ -1,0 +1,165 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'DalseoHealing';
+	font-size:15px;
+	color:#444444;
+}
+ul{
+	list-style-type: none;
+}
+a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+	color:#444444;
+}
+.clear{
+	clear:both;
+}
+/* ----- header ------*/
+header{
+	height: 128px;
+}
+header #top{
+	width:990px;
+	margin: 0 auto;
+}
+header #logo{
+	float:left;
+	margin: 30px 0 0 0;
+	font-size: 20px;
+}
+header #search{
+	float:left;
+	margin: 50px 0 0 150px;
+	font-size:12px;
+}
+header #search #search_title{
+	float:left;
+	margin-top: 3px;
+	color:#D18063;
+	
+}
+header #search #search_form{
+	float: left;
+}
+header #search #search_form input{
+	width:80px;
+	height: 16px;
+	border: 0;
+	background-color: white;
+	border-bottom: solid 1px #cccccc;
+	margin-left: 5px;
+}
+header #search #search_buttom{
+	float:left;
+	margin-left: 6px;
+}
+
+/*-------상단메뉴---------*/
+header #top_menu{
+	float:right;
+	margin-top: 45px;
+}
+header #top_menu a:link{
+	font-size:11px;
+	color:#888888;
+}
+header #top_menu a:visited{
+	font-size:11px;
+	color:#888888;
+}
+header #top_menu a:hover{
+	font-size:11px;
+	color:#888888;
+}
+header #top_menu a:active{
+	font-size:11px;
+	color:#888888;
+}
+header #top_menu li.pink a:link{
+	color:#D18063;
+}
+header #top_menu li.pink a:visited{
+	color:#D18063;
+}
+header #top_menu li.pink a:hover{
+	color:#D18063;
+}
+header #top_menu li.pink a:active{
+	color:#D18063;
+}
+header #top_menu li{
+	display:inline;
+	margin-left: 10px;
+}
+
+/*------메인메뉴------*/
+header #main_menu{
+	height: 40px;
+	margin-top: 15px;
+	background-color: #D18063;
+}
+header #main_menu ul{
+	width: 990px;
+	margin: auto;
+	padding-top:12px;
+	text-align: center;
+}
+header #main_menu li{
+	display: inline;
+	margin:0 57px;
+}	
+
+/*-------------푸터-------------*/
+
+footer {
+	height:200px;
+	margin-top: 20px;
+}
+footer #footer_menu_box {
+	height:40px;
+	background-color:#4e4c4d;
+}
+footer #footer_menu { 
+	width:990px;
+	margin:0 auto;
+	padding-top:15px;
+}
+footer #footer_menu ul { 
+	margin-left:210px;
+}
+footer #footer_menu li {
+	display:inline; 
+	margin-left:20px;
+}
+footer #footer_menu a:link {
+	color:#ffffff;
+}
+footer #footer_menu a:hover { 
+	color:#ffffff;
+}
+footer #footer_menu a:visited { 
+	color:#ffffff;
+}
+footer #footer_menu a:active{
+	color:#ffffff;
+}
+footer #footer_box{
+	width:990px;
+	margin: auto;
+}
+footer #footer_box div{
+	float:left;
+}
+footer #footer_box #footer_logo{
+	margin:50px 0 0 30px;
+}
+footer #footer_box #address{
+	margin: 25px 0 0 10px;
+}
+footer #footer_box #footer_banner{
+	margin: 50px 0 070px;
+}

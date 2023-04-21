@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	class Square{
+		#length
+		
+		constructor(length){
+			if(length<=0){
+				throw "길이는 0보다 커야합니다."
+			}
+			this.#length=length
+		}
+		getPerimeter(){return4*this.#length}
+		getArea(){return this.#length*this.#length}
+	}
+	const square = new Square(10)
+	squre.#length =-10
+	console.log(`정사각형의 둘레:${squre.getPerimeter()}`)
+	console.log(`정사격형의 넓이:${squre.getArea()}`)
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script>
+ 	// 단순하게매개변수를모두출력하는함수
+ 	function sample(...items) {
+ 	console.log(items)
+ 	}
+
+ 	// 전개연산자사용여부비교하기
+ 	const array = [1, 2, 3, 4]
+
+ 	console.log('# 전개연산자를사용하지않은경우')
+ 	sample(array)
+ 	console.log('# 전개연산자를사용한경우')
+ 	sample(...array)
+   </script>
+</head>
+<body>
+
+</body>
+</html>
